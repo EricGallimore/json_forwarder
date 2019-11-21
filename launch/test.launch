@@ -1,0 +1,9 @@
+<launch>
+    <node name="json_forwarder" pkg="json_forwarder" type="json_forwarder_node.py" respawn="false" output="screen">
+        <rosparam>
+            topic_list:
+                - status
+        </rosparam>
+    </node>
+
+</launch>
